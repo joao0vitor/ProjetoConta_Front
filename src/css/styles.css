@@ -61,6 +61,7 @@
   margin-top: -50px;
   background-color: #fff;
   padding: 50px;
+  text-align: center;
 }
 
 .cards img {
@@ -95,4 +96,92 @@
   height: 60vh;
   border: 1px solid silver;
   background-size: 100% cover;
+}
+
+.plans h3 {
+  color: rgb(90, 90, 90);
+}
+
+.plans a {
+  padding: 20px;
+  background-color: orange;
+  color: #fff;
+  border-radius: 5pt;
+  display: block;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.waitlist div {
+  background-color: #fff;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: -90px;
+  padding-top: 10px;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  margin-left: 40%;
+}
+
+.waitlist div img {
+  width: 75%;
+  height: auto;
+}
+
+.waitlist input {
+  padding: 10px;
+  background-color: beige;
+  border-radius: 10px;
+  margin-top: 50px;
+  border: 0px;
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+
+.waitlist a {
+  padding: 10px;
+  font-size: 12pt;
+  background-color: #f13f6c;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  display: block;
+  width: 100%;
+}
+
+.waitlist p {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+}
+
+.linha {
+  position: relative;
+  width: 280px;
+  top: 60px;
+  left: -30px;
+}
+
+.login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1000;
+  width: 100vw;
+  height: 150vh;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.login input {
+  margin: 10px;
+  padding: 10px;
+}
+
+.login button {
+  padding: 10px;
+  margin: 10px;
 }
